@@ -1,4 +1,4 @@
-# Runtime dependencies and local secrets
+# Local runtime files and private state
 **/node_modules/
 **/__pycache__/
 **/*.pyc
@@ -9,3 +9,6 @@
 !.env.example
 .DS_Store
 Thumbs.db
+archive_data/
+skill-archive-search/
+*.tmp

@@ -1,0 +1,6 @@
+interface:
+  display_name: "项目 Skill 检索"
+  short_description: "从本机档案筛选项目相关技能，按需读取完整指令并减少重复上下文"
+  default_prompt: "使用 $archive-skill-search 为当前项目筛选相关技能，再读取需要的原文。"
+policy:
+  allow_implicit_invocation: true
